@@ -1,0 +1,37 @@
+.stui-core {
+  display: flex;
+  height: 100vh;
+
+	&__base {
+		flex: 1;
+		display: flex;
+		flex-flow: nowrap column;
+		height: 100vh;
+	}
+}
+
+.stui-view {
+	flex: 1;
+	display: flex;
+}
+
+.stui-grid {
+  display: grid;
+  grid: 1fr / 1fr;
+  grid-gap: 12px;
+
+  &--2 {
+    grid: 1fr / 1fr 1fr;
+  }
+}
+
+.stui-tile {
+  padding: 12px;
+  background: white;
+  border-radius: 6px;
+  border: 1px solid var(--grey-l1);
+
+  p {
+    font-size: .75rem;
+  }
+}

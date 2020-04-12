@@ -1,0 +1,153 @@
+.exl-core {
+  display: flex;
+  flex-flow: nowrap column;
+  height: 100vh;
+  font-size: .75rem;
+}
+
+.exl-header {
+  background: var(--brand-primary);
+  color: white;
+
+  &__base {
+    display: flex;
+    align-items: center;
+    padding: 6px 12px;
+
+    button {
+      margin-right: 3px;
+    }
+  }
+
+  .exl-hbase-main,
+  .exl-hbase-ext {
+    margin-right: 12px;
+  }
+
+  .exl-hbase-ext {
+    flex: 1;
+    text-align: center;
+  }
+}
+
+.exl-addons-panel {
+  display: flex;
+  padding: 8px 6px;
+  background: var(--grey-l2);
+
+  .exl-adn {
+    border-right: 1px solid var(--grey-l1);
+  }
+
+  .exl-ado {
+    display: flex;
+    padding: 0px 6px;
+
+    &__col {
+      margin-right: 3px;
+
+      &.flex1 {
+        flex: 1;
+      }
+    }
+  }
+
+  .exl-ado-lgicn {
+    font-size: 2rem;
+  }
+}
+
+.exl-main {
+  flex: 1;
+  background: var(--grey-l1);
+
+  .ag-ltr .ag-cell {
+    border: 1px solid var(--grey-l2);
+    border-right: 1px solid transparent;
+    border-top: 1px solid transparent;
+  }
+}
+
+.exl-tab-bar {
+  display: flex;
+
+  &__base {
+    flex: 1;
+  }
+}
+
+.exl-main-control {
+  display: flex;
+  background: var(--grey-l2);
+  border-bottom: 1px solid var(--grey-l1);
+
+  &__actions {
+    padding: 6px 12px;
+
+    button {
+      margin-right: 3px;
+    }
+  }
+}
+
+.exl-p-control {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  background: var(--grey-l2);
+
+  &__status {
+    flex: 1;
+  }
+
+  &__opts {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.exl-size-slider {
+  display: flex;
+  align-items: center;
+}
+
+.exl-tab-bar {
+  button {
+    padding: 6px 12px;
+    background: transparent;
+    color: white;
+
+    &:hover,
+    &:active,
+    &:focus {
+      background: var(--brand-secondary);
+    }
+
+    &.is-active {
+      background: var(--grey-l2);
+      color: var(--brand-primary);
+    }
+  }
+
+  &--sd {
+    button {
+      padding-top: 10px;
+      color: var(--grey-d1);
+      border-bottom: 3px solid transparent;
+
+      &:hover,
+      &:active,
+      &:focus {
+        color: white;
+      }
+
+      &.is-active {
+        background: white;
+        color: var(--brand-primary);
+        border: 1px solid var(--grey-l1);
+        border-top: 1px solid white;
+        border-bottom: 2px solid var(--brand-primary);
+      }
+    }
+  }
+}

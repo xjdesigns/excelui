@@ -1,0 +1,28 @@
+.stui-dtable {
+  font-size: .75rem;
+
+  .ReactTable,
+  .rt-table {
+    border-radius: 6px;
+  }
+
+  .rt-th {
+    background: var(--brand-secondary);
+    color: white;
+    text-align: left;
+  }
+
+  .react-json-view {
+    padding: 12px;
+  }
+}
+
+.stui-dtr {
+  display: grid;
+  grid: 1fr / 1fr 1fr;
+  grid-gap: 1%;
+
+  p {
+    font-size: .75rem;
+  }
+}

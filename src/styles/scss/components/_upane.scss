@@ -1,0 +1,56 @@
+.stui-divider {
+  height: 1px;
+  margin: 6px 0;
+  background: $grey-l1;
+}
+
+.stui-upane {
+  flex: 0 0 30%;
+  padding: 24px;
+	max-width: 300px;
+	height: calc(100vh - 45px);
+  background: var(--grey-l2);
+  border-right: 1px solid var(--grey-l1);
+  overflow-y: auto;
+
+  &__header,
+  &__details {
+    margin-bottom: 24px;
+    border-bottom: 1px solid $grey-l1;
+  }
+
+  &__header {
+    padding: 3px;
+  }
+
+  &__details {
+    padding-bottom: 24px;
+    font-size: .75rem;
+  }
+
+  &__info {
+    & > .spx-apanel {
+			padding: 8px;
+			font-size: .75rem;
+      margin-bottom: 3px;
+    }
+  }
+}
+
+.stui-uheader {
+  display: flex;
+  align-items: center;
+
+  &__title {
+    flex: 1;
+  }
+}
+
+.stui-udetail {
+  // display: flex;
+  margin-bottom: 12px;
+
+  // &__label {
+  //   flex: 1;
+  // }
+}
