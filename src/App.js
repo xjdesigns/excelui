@@ -20,22 +20,22 @@ function App() {
       <header className="exl-header">
         <div className="exl-header__base">
           <div className="exl-hbase-main">
-            <button class="spx-btn spx-btn--sd spx-btn--circle spx-btn--sm">
+            <button className="spx-btn spx-btn--sd spx-btn--circle spx-btn--sm">
               <FaSave />
             </button>
-            <button class="spx-btn spx-btn--sd spx-btn--circle spx-btn--sm">
+            <button className="spx-btn spx-btn--sd spx-btn--circle spx-btn--sm">
               <FaUndoAlt />
             </button>
-            <button class="spx-btn spx-btn--sd spx-btn--circle spx-btn--sm">
+            <button className="spx-btn spx-btn--sd spx-btn--circle spx-btn--sm">
               <FaRedoAlt />
             </button>
-            <button class="spx-btn spx-btn--sd spx-btn--circle spx-btn--sm">
+            <button className="spx-btn spx-btn--sd spx-btn--circle spx-btn--sm">
               <FaEject />
             </button>
           </div>
           <div className="exl-hbase-ext">Book1 - Excel</div>
           <div className="exl-hbase-window">
-            <button class="spx-btn spx-btn--sd spx-btn--circle spx-btn--sm">
+            <button className="spx-btn spx-btn--sd spx-btn--circle spx-btn--sm">
               <FaWindowClose />
             </button>
           </div>
@@ -83,14 +83,14 @@ function App() {
           <div>
             <div className="exl-ado exl-ado--col2">
               <div className="exl-ado__col">
-                <div class="spx-select">
+                <div className="spx-select">
                   <select>
                     <option value="helvetica">Helvetica</option>
                   </select>
                 </div>
               </div>
               <div className="exl-ado__col">
-                <div class="spx-select">
+                <div className="spx-select">
                   <select>
                     <option value="10">10</option>
                     <option value="10">10</option>
@@ -109,10 +109,10 @@ function App() {
       </main>
       <div className="exl-main-control">
         <div className="exl-main-control__actions">
-          <button class="spx-btn spx-btn--sd--inverted spx-btn--circle spx-btn--xsm" disabled>
+          <button className="spx-btn spx-btn--sd--inverted spx-btn--circle spx-btn--xsm" disabled>
             <FaAngleLeft />
           </button>
-          <button class="spx-btn spx-btn--sd--inverted spx-btn--circle spx-btn--xsm">
+          <button className="spx-btn spx-btn--sd--inverted spx-btn--circle spx-btn--xsm">
             <FaAngleRight />
           </button>
         </div>
@@ -133,8 +133,8 @@ function App() {
           <div className="exl-size-slider">
             <div>-</div>
             <div>
-              <div class="spx-range-slider">
-                <input type="range" value="10" min="0" max="100" step="1" />
+              <div className="spx-range-slider">
+                <input type="range" defaultValue="10" min="0" max="100" step="1" />
               </div>
             </div>
             <div>+</div>
